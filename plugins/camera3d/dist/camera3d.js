@@ -1129,7 +1129,7 @@ var MATH_CONST = {
 
     /**
      * The value of PI * 2.
-     * 
+     *
      * @name Phaser.Math.PI2
      * @type {number}
      * @since 3.0.0
@@ -1138,7 +1138,7 @@ var MATH_CONST = {
 
     /**
      * The value of PI * 0.5.
-     * 
+     *
      * @name Phaser.Math.TAU
      * @type {number}
      * @since 3.0.0
@@ -1147,7 +1147,7 @@ var MATH_CONST = {
 
     /**
      * An epsilon value (1.0e-6)
-     * 
+     *
      * @name Phaser.Math.EPSILON
      * @type {number}
      * @since 3.0.0
@@ -1156,7 +1156,7 @@ var MATH_CONST = {
 
     /**
      * For converting degrees to radians (PI / 180)
-     * 
+     *
      * @name Phaser.Math.DEG_TO_RAD
      * @type {number}
      * @since 3.0.0
@@ -1165,7 +1165,7 @@ var MATH_CONST = {
 
     /**
      * For converting radians to degrees (180 / PI)
-     * 
+     *
      * @name Phaser.Math.RAD_TO_DEG
      * @type {number}
      * @since 3.0.0
@@ -1175,7 +1175,7 @@ var MATH_CONST = {
     /**
      * An instance of the Random Number Generator.
      * This is not set until the Game boots.
-     * 
+     *
      * @name Phaser.Math.RND
      * @type {Phaser.Math.RandomDataGenerator}
      * @since 3.0.0
@@ -1185,7 +1185,7 @@ var MATH_CONST = {
     /**
      * The minimum safe integer this browser supports.
      * We use a const for backward compatibility with Internet Explorer.
-     * 
+     *
      * @name Phaser.Math.MIN_SAFE_INTEGER
      * @type {number}
      * @since 3.21.0
@@ -1195,7 +1195,7 @@ var MATH_CONST = {
     /**
      * The maximum safe integer this browser supports.
      * We use a const for backward compatibility with Internet Explorer.
-     * 
+     *
      * @name Phaser.Math.MAX_SAFE_INTEGER
      * @type {number}
      * @since 3.21.0
@@ -4213,7 +4213,7 @@ var GetValue = __webpack_require__(12);
  * Retrieves a value from an object. Allows for more advanced selection options, including:
  *
  * Allowed types:
- * 
+ *
  * Implicit
  * {
  *     x: 4
@@ -4238,7 +4238,7 @@ var GetValue = __webpack_require__(12);
  * {
  *     x: { randFloat: [min, max] }
  * }
- * 
+ *
  *
  * @function Phaser.Utils.Objects.GetAdvancedValue
  * @since 3.0.0
@@ -4974,7 +4974,7 @@ var GEOM_CONST = {
 
     /**
      * A Circle Geometry object type.
-     * 
+     *
      * @name Phaser.Geom.CIRCLE
      * @type {integer}
      * @since 3.19.0
@@ -4983,7 +4983,7 @@ var GEOM_CONST = {
 
     /**
      * An Ellipse Geometry object type.
-     * 
+     *
      * @name Phaser.Geom.ELLIPSE
      * @type {integer}
      * @since 3.19.0
@@ -4992,7 +4992,7 @@ var GEOM_CONST = {
 
     /**
      * A Line Geometry object type.
-     * 
+     *
      * @name Phaser.Geom.LINE
      * @type {integer}
      * @since 3.19.0
@@ -5001,7 +5001,7 @@ var GEOM_CONST = {
 
     /**
      * A Point Geometry object type.
-     * 
+     *
      * @name Phaser.Geom.POINT
      * @type {integer}
      * @since 3.19.0
@@ -5010,7 +5010,7 @@ var GEOM_CONST = {
 
     /**
      * A Polygon Geometry object type.
-     * 
+     *
      * @name Phaser.Geom.POLYGON
      * @type {integer}
      * @since 3.19.0
@@ -5019,7 +5019,7 @@ var GEOM_CONST = {
 
     /**
      * A Rectangle Geometry object type.
-     * 
+     *
      * @name Phaser.Geom.RECTANGLE
      * @type {integer}
      * @since 3.19.0
@@ -5028,7 +5028,7 @@ var GEOM_CONST = {
 
     /**
      * A Triangle Geometry object type.
-     * 
+     *
      * @name Phaser.Geom.TRIANGLE
      * @type {integer}
      * @since 3.19.0
@@ -5052,7 +5052,7 @@ module.exports = GEOM_CONST;
 
 /**
  * Phaser Blend Modes.
- * 
+ *
  * @namespace Phaser.BlendModes
  * @since 3.0.0
  */
@@ -5061,7 +5061,7 @@ module.exports = {
 
     /**
      * Skips the Blend Mode check in the renderer.
-     * 
+     *
      * @name Phaser.BlendModes.SKIP_CHECK
      * @type {integer}
      * @const
@@ -5072,7 +5072,7 @@ module.exports = {
     /**
      * Normal blend mode. For Canvas and WebGL.
      * This is the default setting and draws new shapes on top of the existing canvas content.
-     * 
+     *
      * @name Phaser.BlendModes.NORMAL
      * @type {integer}
      * @const
@@ -5083,7 +5083,7 @@ module.exports = {
     /**
      * Add blend mode. For Canvas and WebGL.
      * Where both shapes overlap the color is determined by adding color values.
-     * 
+     *
      * @name Phaser.BlendModes.ADD
      * @type {integer}
      * @const
@@ -5094,7 +5094,7 @@ module.exports = {
     /**
      * Multiply blend mode. For Canvas and WebGL.
      * The pixels are of the top layer are multiplied with the corresponding pixel of the bottom layer. A darker picture is the result.
-     * 
+     *
      * @name Phaser.BlendModes.MULTIPLY
      * @type {integer}
      * @const
@@ -5105,7 +5105,7 @@ module.exports = {
     /**
      * Screen blend mode. For Canvas and WebGL.
      * The pixels are inverted, multiplied, and inverted again. A lighter picture is the result (opposite of multiply)
-     * 
+     *
      * @name Phaser.BlendModes.SCREEN
      * @type {integer}
      * @const
@@ -5116,7 +5116,7 @@ module.exports = {
     /**
      * Overlay blend mode. For Canvas only.
      * A combination of multiply and screen. Dark parts on the base layer become darker, and light parts become lighter.
-     * 
+     *
      * @name Phaser.BlendModes.OVERLAY
      * @type {integer}
      * @const
@@ -5127,7 +5127,7 @@ module.exports = {
     /**
      * Darken blend mode. For Canvas only.
      * Retains the darkest pixels of both layers.
-     * 
+     *
      * @name Phaser.BlendModes.DARKEN
      * @type {integer}
      * @const
@@ -5138,7 +5138,7 @@ module.exports = {
     /**
      * Lighten blend mode. For Canvas only.
      * Retains the lightest pixels of both layers.
-     * 
+     *
      * @name Phaser.BlendModes.LIGHTEN
      * @type {integer}
      * @const
@@ -5149,7 +5149,7 @@ module.exports = {
     /**
      * Color Dodge blend mode. For Canvas only.
      * Divides the bottom layer by the inverted top layer.
-     * 
+     *
      * @name Phaser.BlendModes.COLOR_DODGE
      * @type {integer}
      * @const
@@ -5160,7 +5160,7 @@ module.exports = {
     /**
      * Color Burn blend mode. For Canvas only.
      * Divides the inverted bottom layer by the top layer, and then inverts the result.
-     * 
+     *
      * @name Phaser.BlendModes.COLOR_BURN
      * @type {integer}
      * @const
@@ -5171,7 +5171,7 @@ module.exports = {
     /**
      * Hard Light blend mode. For Canvas only.
      * A combination of multiply and screen like overlay, but with top and bottom layer swapped.
-     * 
+     *
      * @name Phaser.BlendModes.HARD_LIGHT
      * @type {integer}
      * @const
@@ -5182,7 +5182,7 @@ module.exports = {
     /**
      * Soft Light blend mode. For Canvas only.
      * A softer version of hard-light. Pure black or white does not result in pure black or white.
-     * 
+     *
      * @name Phaser.BlendModes.SOFT_LIGHT
      * @type {integer}
      * @const
@@ -5193,7 +5193,7 @@ module.exports = {
     /**
      * Difference blend mode. For Canvas only.
      * Subtracts the bottom layer from the top layer or the other way round to always get a positive value.
-     * 
+     *
      * @name Phaser.BlendModes.DIFFERENCE
      * @type {integer}
      * @const
@@ -5204,7 +5204,7 @@ module.exports = {
     /**
      * Exclusion blend mode. For Canvas only.
      * Like difference, but with lower contrast.
-     * 
+     *
      * @name Phaser.BlendModes.EXCLUSION
      * @type {integer}
      * @const
@@ -5215,7 +5215,7 @@ module.exports = {
     /**
      * Hue blend mode. For Canvas only.
      * Preserves the luma and chroma of the bottom layer, while adopting the hue of the top layer.
-     * 
+     *
      * @name Phaser.BlendModes.HUE
      * @type {integer}
      * @const
@@ -5226,7 +5226,7 @@ module.exports = {
     /**
      * Saturation blend mode. For Canvas only.
      * Preserves the luma and hue of the bottom layer, while adopting the chroma of the top layer.
-     * 
+     *
      * @name Phaser.BlendModes.SATURATION
      * @type {integer}
      * @const
@@ -5237,7 +5237,7 @@ module.exports = {
     /**
      * Color blend mode. For Canvas only.
      * Preserves the luma of the bottom layer, while adopting the hue and chroma of the top layer.
-     * 
+     *
      * @name Phaser.BlendModes.COLOR
      * @type {integer}
      * @const
@@ -5248,7 +5248,7 @@ module.exports = {
     /**
      * Luminosity blend mode. For Canvas only.
      * Preserves the hue and chroma of the bottom layer, while adopting the luma of the top layer.
-     * 
+     *
      * @name Phaser.BlendModes.LUMINOSITY
      * @type {integer}
      * @const
@@ -5258,7 +5258,7 @@ module.exports = {
 
     /**
      * Alpha erase blend mode. For Canvas and WebGL.
-     * 
+     *
      * @name Phaser.BlendModes.ERASE
      * @type {integer}
      * @const
@@ -5269,7 +5269,7 @@ module.exports = {
     /**
      * Source-in blend mode. For Canvas only.
      * The new shape is drawn only where both the new shape and the destination canvas overlap. Everything else is made transparent.
-     * 
+     *
      * @name Phaser.BlendModes.SOURCE_IN
      * @type {integer}
      * @const
@@ -5280,7 +5280,7 @@ module.exports = {
     /**
      * Source-out blend mode. For Canvas only.
      * The new shape is drawn where it doesn't overlap the existing canvas content.
-     * 
+     *
      * @name Phaser.BlendModes.SOURCE_OUT
      * @type {integer}
      * @const
@@ -5291,7 +5291,7 @@ module.exports = {
     /**
      * Source-out blend mode. For Canvas only.
      * The new shape is only drawn where it overlaps the existing canvas content.
-     * 
+     *
      * @name Phaser.BlendModes.SOURCE_ATOP
      * @type {integer}
      * @const
@@ -5302,7 +5302,7 @@ module.exports = {
     /**
      * Destination-over blend mode. For Canvas only.
      * New shapes are drawn behind the existing canvas content.
-     * 
+     *
      * @name Phaser.BlendModes.DESTINATION_OVER
      * @type {integer}
      * @const
@@ -5313,7 +5313,7 @@ module.exports = {
     /**
      * Destination-in blend mode. For Canvas only.
      * The existing canvas content is kept where both the new shape and existing canvas content overlap. Everything else is made transparent.
-     * 
+     *
      * @name Phaser.BlendModes.DESTINATION_IN
      * @type {integer}
      * @const
@@ -5324,7 +5324,7 @@ module.exports = {
     /**
      * Destination-out blend mode. For Canvas only.
      * The existing content is kept where it doesn't overlap the new shape.
-     * 
+     *
      * @name Phaser.BlendModes.DESTINATION_OUT
      * @type {integer}
      * @const
@@ -5335,7 +5335,7 @@ module.exports = {
     /**
      * Destination-out blend mode. For Canvas only.
      * The existing canvas is only kept where it overlaps the new shape. The new shape is drawn behind the canvas content.
-     * 
+     *
      * @name Phaser.BlendModes.DESTINATION_ATOP
      * @type {integer}
      * @const
@@ -5346,7 +5346,7 @@ module.exports = {
     /**
      * Lighten blend mode. For Canvas only.
      * Where both shapes overlap the color is determined by adding color values.
-     * 
+     *
      * @name Phaser.BlendModes.LIGHTER
      * @type {integer}
      * @const
@@ -5357,7 +5357,7 @@ module.exports = {
     /**
      * Copy blend mode. For Canvas only.
      * Only the new shape is shown.
-     * 
+     *
      * @name Phaser.BlendModes.COPY
      * @type {integer}
      * @const
@@ -5368,7 +5368,7 @@ module.exports = {
     /**
      * Xor blend mode. For Canvas only.
      * Shapes are made transparent where both overlap and drawn normal everywhere else.
-     * 
+     *
      * @name Phaser.BlendModes.XOR
      * @type {integer}
      * @const
@@ -9857,9 +9857,9 @@ var Point = __webpack_require__(5);
 
 /**
  * Calculates the coordinates of a point at a certain `position` on the Rectangle's perimeter.
- * 
+ *
  * The `position` is a fraction between 0 and 1 which defines how far into the perimeter the point is.
- * 
+ *
  * A value of 0 or 1 returns the point at the top left corner of the rectangle, while a value of 0.5 returns the point at the bottom right corner of the rectangle. Values between 0 and 0.5 are on the top or the right side and values between 0.5 and 1 are on the bottom or the left side.
  *
  * @function Phaser.Geom.Rectangle.GetPoint
@@ -10235,13 +10235,13 @@ var TransformMatrix = new Class({
             if (a || b)
             {
                 // var r = Math.sqrt(a * a + b * b);
-    
+
                 return (b > 0) ? Math.acos(a / this.scaleX) : -Math.acos(a / this.scaleX);
             }
             else if (c || d)
             {
                 // var s = Math.sqrt(c * c + d * d);
-    
+
                 return MATH_CONST.TAU - ((d > 0) ? Math.acos(-c / this.scaleY) : -Math.acos(c / this.scaleY));
             }
             else
@@ -10384,7 +10384,7 @@ var TransformMatrix = new Class({
 
     /**
      * Multiply this Matrix by the given Matrix.
-     * 
+     *
      * If an `out` Matrix is given then the results will be stored in it.
      * If it is not given, this matrix will be updated in place instead.
      * Use an `out` Matrix if you do not wish to mutate this matrix.
@@ -10430,7 +10430,7 @@ var TransformMatrix = new Class({
 
     /**
      * Multiply this Matrix by the matrix given, including the offset.
-     * 
+     *
      * The offsetX is added to the tx value: `offsetX * a + offsetY * c + tx`.
      * The offsetY is added to the ty value: `offsetY * b + offsetY * d + ty`.
      *
@@ -10664,7 +10664,7 @@ var TransformMatrix = new Class({
 
     /**
      * Copy the values in this Matrix to the array given.
-     * 
+     *
      * Where array indexes 0, 1, 2, 3, 4 and 5 are mapped to a, b, c, d, e and f.
      *
      * @method Phaser.GameObjects.Components.TransformMatrix#copyToArray
@@ -10726,9 +10726,9 @@ var TransformMatrix = new Class({
 
     /**
      * Decompose this Matrix into its translation, scale and rotation values using QR decomposition.
-     * 
+     *
      * The result must be applied in the following order to reproduce the current matrix:
-     * 
+     *
      * translate -> rotate -> scale
      *
      * @method Phaser.GameObjects.Components.TransformMatrix#decomposeMatrix
@@ -10820,7 +10820,7 @@ var TransformMatrix = new Class({
     /**
      * Takes the `x` and `y` values and returns a new position in the `output` vector that is the inverse of
      * the current matrix with its transformation applied.
-     * 
+     *
      * Can be used to translate points from world to local space.
      *
      * @method Phaser.GameObjects.Components.TransformMatrix#applyInverse
@@ -10859,7 +10859,7 @@ var TransformMatrix = new Class({
      *
      * @method Phaser.GameObjects.Components.TransformMatrix#getX
      * @since 3.12.0
-     * 
+     *
      * @param {number} x - The x value.
      * @param {number} y - The y value.
      *
@@ -10876,7 +10876,7 @@ var TransformMatrix = new Class({
      *
      * @method Phaser.GameObjects.Components.TransformMatrix#getY
      * @since 3.12.0
-     * 
+     *
      * @param {number} x - The x value.
      * @param {number} y - The y value.
      *
@@ -10889,12 +10889,12 @@ var TransformMatrix = new Class({
 
     /**
      * Returns the X component of this matrix multiplied by the given values.
-     * 
+     *
      * This is the same as `x * a + y * c + e`, optionally passing via `Math.round`.
      *
      * @method Phaser.GameObjects.Components.TransformMatrix#getXRound
      * @since 3.50.0
-     * 
+     *
      * @param {number} x - The x value.
      * @param {number} y - The y value.
      * @param {boolean} [round=false] - Math.round the resulting value?
@@ -10915,12 +10915,12 @@ var TransformMatrix = new Class({
 
     /**
      * Returns the Y component of this matrix multiplied by the given values.
-     * 
+     *
      * This is the same as `x * b + y * d + f`, optionally passing via `Math.round`.
      *
      * @method Phaser.GameObjects.Components.TransformMatrix#getYRound
      * @since 3.50.0
-     * 
+     *
      * @param {number} x - The x value.
      * @param {number} y - The y value.
      * @param {boolean} [round=false] - Math.round the resulting value?
@@ -11046,7 +11046,7 @@ var Camera3DPlugin = new Class({
      *
      * @method Phaser.GameObjects.GameObjectFactory#sprite3D
      * @since 3.0.0
-     * 
+     *
      * @param {number} x - The horizontal position of this Game Object.
      * @param {number} y - The vertical position of this Game Object.
      * @param {number} z - The z position of this Game Object.
@@ -11070,7 +11070,7 @@ var Camera3DPlugin = new Class({
      *
      * @method Phaser.GameObjects.GameObjectCreator#sprite3D
      * @since 3.0.0
-     * 
+     *
      * @param {object} config - The configuration object this Game Object will use to create itself.
      * @param {boolean} [addToScene] - Add this Game Object to the Scene after creating it? If set this argument overrides the `add` property in the config object.
      *
@@ -11082,20 +11082,20 @@ var Camera3DPlugin = new Class({
 
         var key = GetAdvancedValue(config, 'key', null);
         var frame = GetAdvancedValue(config, 'frame', null);
-    
+
         var sprite = new Sprite3D(this.scene, 0, 0, key, frame);
-    
+
         if (addToScene !== undefined)
         {
             config.add = addToScene;
         }
-    
+
         BuildGameObject(this.scene, sprite, config);
-    
+
         //  Sprite specific config options:
-    
+
         BuildGameObjectAnimation(sprite, config);
-    
+
         return sprite;
     },
 
@@ -11869,13 +11869,13 @@ var CONST = __webpack_require__(2);
  * Takes an angle in Phasers default clockwise format and converts it so that
  * 0 is North, 90 is West, 180 is South and 270 is East,
  * therefore running counter-clockwise instead of clockwise.
- * 
+ *
  * You can pass in the angle from a Game Object using:
- * 
+ *
  * ```javascript
  * var converted = CounterClockwise(gameobject.rotation);
  * ```
- * 
+ *
  * All values for this function are in radians.
  *
  * @function Phaser.Math.Angle.CounterClockwise
@@ -14614,13 +14614,13 @@ var Class = __webpack_require__(0);
 /**
  * @classdesc
  * A seeded Random Data Generator.
- * 
+ *
  * Access via `Phaser.Math.RND` which is an instance of this class pre-defined
  * by Phaser. Or, create your own instance to use as you require.
- * 
+ *
  * The `Math.RND` generator is seeded by the Game Config property value `seed`.
  * If no such config property exists, a random number is used.
- * 
+ *
  * If you create your own instance of this class you should provide a seed for it.
  * If no seed is given it will use a 'random' one based on Date.now.
  *
@@ -14952,7 +14952,7 @@ var RandomDataGenerator = new Class({
      *
      * @method Phaser.Math.RandomDataGenerator#pick
      * @since 3.0.0
-     * 
+     *
      * @generic T
      * @genericUse {T[]} - [array]
      * @genericUse {T} - [$return]
@@ -16029,17 +16029,17 @@ module.exports = RoundAwayFromZero;
 
 /**
  * Round a value to the given precision.
- * 
+ *
  * For example:
- * 
+ *
  * ```javascript
  * RoundTo(123.456, 0) = 123
  * RoundTo(123.456, 1) = 120
  * RoundTo(123.456, 2) = 100
  * ```
- * 
+ *
  * To round the decimal, i.e. to round to precision, pass in a negative `place`:
- * 
+ *
  * ```javascript
  * RoundTo(123.456789, 0) = 123
  * RoundTo(123.456789, -1) = 123.5
@@ -16136,9 +16136,9 @@ var Vector2 = __webpack_require__(1);
 
 /**
  * Returns a Vector2 containing the x and y position of the given index in a `width` x `height` sized grid.
- * 
+ *
  * For example, in a 6 x 4 grid, index 16 would equal x: 4 y: 2.
- * 
+ *
  * If the given index is out of range an empty Vector2 is returned.
  *
  * @function Phaser.Math.ToXY
@@ -17687,18 +17687,18 @@ module.exports = {
 
 /**
  * The Change Data Event.
- * 
+ *
  * This event is dispatched by a Data Manager when an item in the data store is changed.
- * 
+ *
  * Game Objects with data enabled have an instance of a Data Manager under the `data` property. So, to listen for
  * a change data event from a Game Object you would use: `sprite.data.on('changedata', listener)`.
- * 
+ *
  * This event is dispatched for all items that change in the Data Manager.
  * To listen for the change of a specific item, use the `CHANGE_DATA_KEY_EVENT` event.
  *
  * @event Phaser.Data.Events#CHANGE_DATA
  * @since 3.0.0
- * 
+ *
  * @param {any} parent - A reference to the object that the Data Manager responsible for this event belongs to.
  * @param {string} key - The unique key of the data item within the Data Manager.
  * @param {any} value - The new value of the item in the Data Manager.
@@ -17719,9 +17719,9 @@ module.exports = 'changedata';
 
 /**
  * The Change Data Key Event.
- * 
+ *
  * This event is dispatched by a Data Manager when an item in the data store is changed.
- * 
+ *
  * Game Objects with data enabled have an instance of a Data Manager under the `data` property. So, to listen for
  * the change of a specific data item from a Game Object you would use: `sprite.data.on('changedata-key', listener)`,
  * where `key` is the unique string key of the data item. For example, if you have a data item stored called `gold`
@@ -17729,7 +17729,7 @@ module.exports = 'changedata';
  *
  * @event Phaser.Data.Events#CHANGE_DATA_KEY
  * @since 3.16.1
- * 
+ *
  * @param {any} parent - A reference to the object that owns the instance of the Data Manager responsible for this event.
  * @param {any} value - The item that was updated in the Data Manager. This can be of any data type, i.e. a string, boolean, number, object or instance.
  * @param {any} previousValue - The previous item that was updated in the Data Manager. This can be of any data type, i.e. a string, boolean, number, object or instance.
@@ -17770,15 +17770,15 @@ module.exports = 'destroy';
 
 /**
  * The Remove Data Event.
- * 
+ *
  * This event is dispatched by a Data Manager when an item is removed from it.
- * 
+ *
  * Game Objects with data enabled have an instance of a Data Manager under the `data` property. So, to listen for
  * the removal of a data item on a Game Object you would use: `sprite.data.on('removedata', listener)`.
  *
  * @event Phaser.Data.Events#REMOVE_DATA
  * @since 3.0.0
- * 
+ *
  * @param {any} parent - A reference to the object that owns the instance of the Data Manager responsible for this event.
  * @param {string} key - The unique key of the data item within the Data Manager.
  * @param {any} data - The item that was removed from the Data Manager. This can be of any data type, i.e. a string, boolean, number, object or instance.
@@ -17798,15 +17798,15 @@ module.exports = 'removedata';
 
 /**
  * The Set Data Event.
- * 
+ *
  * This event is dispatched by a Data Manager when a new item is added to the data store.
- * 
+ *
  * Game Objects with data enabled have an instance of a Data Manager under the `data` property. So, to listen for
  * the addition of a new data item on a Game Object you would use: `sprite.data.on('setdata', listener)`.
  *
  * @event Phaser.Data.Events#SET_DATA
  * @since 3.0.0
- * 
+ *
  * @param {any} parent - A reference to the object that owns the instance of the Data Manager responsible for this event.
  * @param {string} key - The unique key of the data item within the Data Manager.
  * @param {any} data - The item that was added to the Data Manager. This can be of any data type, i.e. a string, boolean, number, object or instance.
@@ -18195,14 +18195,14 @@ module.exports = 'addedtoscene';
 
 /**
  * The Game Object Destroy Event.
- * 
+ *
  * This event is dispatched when a Game Object instance is being destroyed.
- * 
+ *
  * Listen for it on a Game Object instance using `GameObject.on('destroy', listener)`.
  *
  * @event Phaser.GameObjects.Events#DESTROY
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.GameObjects.GameObject} gameObject - The Game Object which is being destroyed.
  */
 module.exports = 'destroy';
@@ -18246,21 +18246,21 @@ module.exports = 'removedfromscene';
 
 /**
  * The Video Game Object Complete Event.
- * 
+ *
  * This event is dispatched when a Video finishes playback by reaching the end of its duration. It
  * is also dispatched if a video marker sequence is being played and reaches the end.
- * 
+ *
  * Note that not all videos can fire this event. Live streams, for example, have no fixed duration,
  * so never technically 'complete'.
- * 
+ *
  * If a video is stopped from playback, via the `Video.stop` method, it will emit the
  * `VIDEO_STOP` event instead of this one.
- * 
+ *
  * Listen for it from a Video Game Object instance using `Video.on('complete', listener)`.
  *
  * @event Phaser.GameObjects.Events#VIDEO_COMPLETE
  * @since 3.20.0
- * 
+ *
  * @param {Phaser.GameObjects.Video} video - The Video Game Object which completed playback.
  */
 module.exports = 'complete';
@@ -18278,16 +18278,16 @@ module.exports = 'complete';
 
 /**
  * The Video Game Object Created Event.
- * 
+ *
  * This event is dispatched when the texture for a Video has been created. This happens
  * when enough of the video source has been loaded that the browser is able to render a
  * frame from it.
- * 
+ *
  * Listen for it from a Video Game Object instance using `Video.on('created', listener)`.
  *
  * @event Phaser.GameObjects.Events#VIDEO_CREATED
  * @since 3.20.0
- * 
+ *
  * @param {Phaser.GameObjects.Video} video - The Video Game Object which raised the event.
  * @param {integer} width - The width of the video.
  * @param {integer} height - The height of the video.
@@ -18307,14 +18307,14 @@ module.exports = 'created';
 
 /**
  * The Video Game Object Error Event.
- * 
+ *
  * This event is dispatched when a Video tries to play a source that does not exist, or is the wrong file type.
- * 
+ *
  * Listen for it from a Video Game Object instance using `Video.on('error', listener)`.
  *
  * @event Phaser.GameObjects.Events#VIDEO_ERROR
  * @since 3.20.0
- * 
+ *
  * @param {Phaser.GameObjects.Video} video - The Video Game Object which threw the error.
  * @param {Event} event - The native DOM event the browser raised during playback.
  */
@@ -18333,21 +18333,21 @@ module.exports = 'error';
 
 /**
  * The Video Game Object Loop Event.
- * 
+ *
  * This event is dispatched when a Video that is currently playing has looped. This only
  * happens if the `loop` parameter was specified, or the `setLoop` method was called,
  * and if the video has a fixed duration. Video streams, for example, cannot loop, as
  * they have no duration.
- * 
+ *
  * Looping is based on the result of the Video `timeupdate` event. This event is not
  * frame-accurate, due to the way browsers work, so please do not rely on this loop
  * event to be time or frame precise.
- * 
+ *
  * Listen for it from a Video Game Object instance using `Video.on('loop', listener)`.
  *
  * @event Phaser.GameObjects.Events#VIDEO_LOOP
  * @since 3.20.0
- * 
+ *
  * @param {Phaser.GameObjects.Video} video - The Video Game Object which has looped.
  */
 module.exports = 'loop';
@@ -18365,17 +18365,17 @@ module.exports = 'loop';
 
 /**
  * The Video Game Object Play Event.
- * 
+ *
  * This event is dispatched when a Video begins playback. For videos that do not require
  * interaction unlocking, this is usually as soon as the `Video.play` method is called.
  * However, for videos that require unlocking, it is fired once playback begins after
  * they've been unlocked.
- * 
+ *
  * Listen for it from a Video Game Object instance using `Video.on('play', listener)`.
  *
  * @event Phaser.GameObjects.Events#VIDEO_PLAY
  * @since 3.20.0
- * 
+ *
  * @param {Phaser.GameObjects.Video} video - The Video Game Object which started playback.
  */
 module.exports = 'play';
@@ -18393,14 +18393,14 @@ module.exports = 'play';
 
 /**
  * The Video Game Object Seeked Event.
- * 
+ *
  * This event is dispatched when a Video completes seeking to a new point in its timeline.
- * 
+ *
  * Listen for it from a Video Game Object instance using `Video.on('seeked', listener)`.
  *
  * @event Phaser.GameObjects.Events#VIDEO_SEEKED
  * @since 3.20.0
- * 
+ *
  * @param {Phaser.GameObjects.Video} video - The Video Game Object which completed seeking.
  */
 module.exports = 'seeked';
@@ -18418,15 +18418,15 @@ module.exports = 'seeked';
 
 /**
  * The Video Game Object Seeking Event.
- * 
+ *
  * This event is dispatched when a Video _begins_ seeking to a new point in its timeline.
  * When the seek is complete, it will dispatch the `VIDEO_SEEKED` event to conclude.
- * 
+ *
  * Listen for it from a Video Game Object instance using `Video.on('seeking', listener)`.
  *
  * @event Phaser.GameObjects.Events#VIDEO_SEEKING
  * @since 3.20.0
- * 
+ *
  * @param {Phaser.GameObjects.Video} video - The Video Game Object which started seeking.
  */
 module.exports = 'seeking';
@@ -18444,15 +18444,15 @@ module.exports = 'seeking';
 
 /**
  * The Video Game Object Stopped Event.
- * 
+ *
  * This event is dispatched when a Video is stopped from playback via a call to the `Video.stop` method,
  * either directly via game code, or indirectly as the result of changing a video source or destroying it.
- * 
+ *
  * Listen for it from a Video Game Object instance using `Video.on('stop', listener)`.
  *
  * @event Phaser.GameObjects.Events#VIDEO_STOP
  * @since 3.20.0
- * 
+ *
  * @param {Phaser.GameObjects.Video} video - The Video Game Object which stopped playback.
  */
 module.exports = 'stop';
@@ -18470,15 +18470,15 @@ module.exports = 'stop';
 
 /**
  * The Video Game Object Timeout Event.
- * 
+ *
  * This event is dispatched when a Video has exhausted its allocated time while trying to connect to a video
  * source to start playback.
- * 
+ *
  * Listen for it from a Video Game Object instance using `Video.on('timeout', listener)`.
  *
  * @event Phaser.GameObjects.Events#VIDEO_TIMEOUT
  * @since 3.20.0
- * 
+ *
  * @param {Phaser.GameObjects.Video} video - The Video Game Object which timed out.
  */
 module.exports = 'timeout';
@@ -18496,15 +18496,15 @@ module.exports = 'timeout';
 
 /**
  * The Video Game Object Unlocked Event.
- * 
+ *
  * This event is dispatched when a Video that was prevented from playback due to the browsers
  * Media Engagement Interaction policy, is unlocked by a user gesture.
- * 
+ *
  * Listen for it from a Video Game Object instance using `Video.on('unlocked', listener)`.
  *
  * @event Phaser.GameObjects.Events#VIDEO_UNLOCKED
  * @since 3.20.0
- * 
+ *
  * @param {Phaser.GameObjects.Video} video - The Video Game Object which raised the event.
  */
 module.exports = 'unlocked';
@@ -18983,7 +18983,11 @@ var Sprite = new Class({
      */
     preDestroy: function ()
     {
-        this.anims.destroy();
+        if (this.anims) {
+            this.anims.destroy();
+        } else {
+            console.log('got ya!! 55!');
+        }
 
         this.anims = undefined;
     }
@@ -20894,7 +20898,7 @@ var Class = __webpack_require__(0);
 /**
  * @classdesc
  * The keys of a Map can be arbitrary values.
- * 
+ *
  * ```javascript
  * var map = new Map([
  *    [ 1, 'one' ],
@@ -21298,15 +21302,15 @@ module.exports = GetFastValue;
 
 /**
  * The Add Animation Event.
- * 
+ *
  * This event is dispatched when a new animation is added to the global Animation Manager.
- * 
+ *
  * This can happen either as a result of an animation instance being added to the Animation Manager,
  * or the Animation Manager creating a new animation directly.
  *
  * @event Phaser.Animations.Events#ADD_ANIMATION
  * @since 3.0.0
- * 
+ *
  * @param {string} key - The key of the Animation that was added to the global Animation Manager.
  * @param {Phaser.Animations.Animation} animation - An instance of the newly created Animation.
  */
@@ -21635,9 +21639,9 @@ module.exports = 'animationupdate';
 
 /**
  * The Pause All Animations Event.
- * 
+ *
  * This event is dispatched when the global Animation Manager is told to pause.
- * 
+ *
  * When this happens all current animations will stop updating, although it doesn't necessarily mean
  * that the game has paused as well.
  *
@@ -21659,12 +21663,12 @@ module.exports = 'pauseall';
 
 /**
  * The Remove Animation Event.
- * 
+ *
  * This event is dispatched when an animation is removed from the global Animation Manager.
  *
  * @event Phaser.Animations.Events#REMOVE_ANIMATION
  * @since 3.0.0
- * 
+ *
  * @param {string} key - The key of the Animation that was removed from the global Animation Manager.
  * @param {Phaser.Animations.Animation} animation - An instance of the removed Animation.
  */
@@ -21683,9 +21687,9 @@ module.exports = 'remove';
 
 /**
  * The Resume All Animations Event.
- * 
+ *
  * This event is dispatched when the global Animation Manager resumes, having been previously paused.
- * 
+ *
  * When this happens all current animations will continue updating again.
  *
  * @event Phaser.Animations.Events#RESUME_ALL
@@ -23387,7 +23391,7 @@ var BlendMode = {
 
     /**
      * Private internal value. Holds the current blend mode.
-     * 
+     *
      * @name Phaser.GameObjects.Components.BlendMode#_blendMode
      * @type {integer}
      * @private
@@ -23498,7 +23502,7 @@ module.exports = BlendMode;
 /**
  * Provides methods used for calculating and setting the size of a non-Frame based Game Object.
  * Should be applied as a mixin and not used directly.
- * 
+ *
  * @namespace Phaser.GameObjects.Components.ComputedSize
  * @since 3.0.0
  */
@@ -23507,11 +23511,11 @@ var ComputedSize = {
 
     /**
      * The native (un-scaled) width of this Game Object.
-     * 
+     *
      * Changing this value will not change the size that the Game Object is rendered in-game.
      * For that you need to either set the scale of the Game Object (`setScale`) or use
      * the `displayWidth` property.
-     * 
+     *
      * @name Phaser.GameObjects.Components.ComputedSize#width
      * @type {number}
      * @since 3.0.0
@@ -23520,11 +23524,11 @@ var ComputedSize = {
 
     /**
      * The native (un-scaled) height of this Game Object.
-     * 
+     *
      * Changing this value will not change the size that the Game Object is rendered in-game.
      * For that you need to either set the scale of the Game Object (`setScale`) or use
      * the `displayHeight` property.
-     * 
+     *
      * @name Phaser.GameObjects.Components.ComputedSize#height
      * @type {number}
      * @since 3.0.0
@@ -23533,11 +23537,11 @@ var ComputedSize = {
 
     /**
      * The displayed width of this Game Object.
-     * 
+     *
      * This value takes into account the scale factor.
-     * 
+     *
      * Setting this value will adjust the Game Object's scale property.
-     * 
+     *
      * @name Phaser.GameObjects.Components.ComputedSize#displayWidth
      * @type {number}
      * @since 3.0.0
@@ -23558,11 +23562,11 @@ var ComputedSize = {
 
     /**
      * The displayed height of this Game Object.
-     * 
+     *
      * This value takes into account the scale factor.
-     * 
+     *
      * Setting this value will adjust the Game Object's scale property.
-     * 
+     *
      * @name Phaser.GameObjects.Components.ComputedSize#displayHeight
      * @type {number}
      * @since 3.0.0
@@ -23583,21 +23587,21 @@ var ComputedSize = {
 
     /**
      * Sets the internal size of this Game Object, as used for frame or physics body creation.
-     * 
+     *
      * This will not change the size that the Game Object is rendered in-game.
      * For that you need to either set the scale of the Game Object (`setScale`) or call the
      * `setDisplaySize` method, which is the same thing as changing the scale but allows you
      * to do so by giving pixel values.
-     * 
+     *
      * If you have enabled this Game Object for input, changing the size will _not_ change the
      * size of the hit area. To do this you should adjust the `input.hitArea` object directly.
-     * 
+     *
      * @method Phaser.GameObjects.Components.ComputedSize#setSize
      * @since 3.4.0
      *
      * @param {number} width - The width of this Game Object.
      * @param {number} height - The height of this Game Object.
-     * 
+     *
      * @return {this} This Game Object instance.
      */
     setSize: function (width, height)
@@ -23610,15 +23614,15 @@ var ComputedSize = {
 
     /**
      * Sets the display size of this Game Object.
-     * 
+     *
      * Calling this will adjust the scale.
-     * 
+     *
      * @method Phaser.GameObjects.Components.ComputedSize#setDisplaySize
      * @since 3.4.0
      *
      * @param {number} width - The width of this Game Object.
      * @param {number} height - The height of this Game Object.
-     * 
+     *
      * @return {this} This Game Object instance.
      */
     setDisplaySize: function (width, height)
@@ -23684,24 +23688,24 @@ var Crop = {
 
     /**
      * Applies a crop to a texture based Game Object, such as a Sprite or Image.
-     * 
+     *
      * The crop is a rectangle that limits the area of the texture frame that is visible during rendering.
-     * 
+     *
      * Cropping a Game Object does not change its size, dimensions, physics body or hit area, it just
      * changes what is shown when rendered.
-     * 
+     *
      * The crop coordinates are relative to the texture frame, not the Game Object, meaning 0 x 0 is the top-left.
-     * 
+     *
      * Therefore, if you had a Game Object that had an 800x600 sized texture, and you wanted to show only the left
      * half of it, you could call `setCrop(0, 0, 400, 600)`.
-     * 
+     *
      * It is also scaled to match the Game Object scale automatically. Therefore a crop rect of 100x50 would crop
      * an area of 200x100 when applied to a Game Object that had a scale factor of 2.
-     * 
+     *
      * You can either pass in numeric values directly, or you can provide a single Rectangle object as the first argument.
-     * 
+     *
      * Call this method with no arguments at all to reset the crop, or toggle the property `isCropped` to `false`.
-     * 
+     *
      * You should do this if the crop rectangle becomes the same size as the frame itself, as it will allow
      * the renderer to skip several internal calculations.
      *
@@ -23746,7 +23750,7 @@ var Crop = {
      * @method Phaser.GameObjects.Components.Crop#resetCropObject
      * @private
      * @since 3.12.0
-     * 
+     *
      * @return {object} The crop object.
      */
     resetCropObject: function ()
@@ -23772,7 +23776,7 @@ module.exports = Crop;
 /**
  * Provides methods used for setting the depth of a Game Object.
  * Should be applied as a mixin and not used directly.
- * 
+ *
  * @namespace Phaser.GameObjects.Components.Depth
  * @since 3.0.0
  */
@@ -23781,7 +23785,7 @@ var Depth = {
 
     /**
      * Private internal value. Holds the depth of the Game Object.
-     * 
+     *
      * @name Phaser.GameObjects.Components.Depth#_depth
      * @type {integer}
      * @private
@@ -23792,7 +23796,7 @@ var Depth = {
 
     /**
      * The depth of this Game Object within the Scene.
-     * 
+     *
      * The depth is also known as the 'z-index' in some environments, and allows you to change the rendering order
      * of Game Objects, without actually moving their position in the display list.
      *
@@ -23800,7 +23804,7 @@ var Depth = {
      * value will always render in front of one with a lower value.
      *
      * Setting the depth will queue a depth sort event within the Scene.
-     * 
+     *
      * @name Phaser.GameObjects.Components.Depth#depth
      * @type {number}
      * @since 3.0.0
@@ -23822,7 +23826,7 @@ var Depth = {
 
     /**
      * The depth of this Game Object within the Scene.
-     * 
+     *
      * The depth is also known as the 'z-index' in some environments, and allows you to change the rendering order
      * of Game Objects, without actually moving their position in the display list.
      *
@@ -23830,12 +23834,12 @@ var Depth = {
      * value will always render in front of one with a lower value.
      *
      * Setting the depth will queue a depth sort event within the Scene.
-     * 
+     *
      * @method Phaser.GameObjects.Components.Depth#setDepth
      * @since 3.0.0
      *
      * @param {integer} value - The depth of this Game Object.
-     * 
+     *
      * @return {this} This Game Object instance.
      */
     setDepth: function (value)
@@ -23865,7 +23869,7 @@ module.exports = Depth;
 /**
  * Provides methods used for visually flipping a Game Object.
  * Should be applied as a mixin and not used directly.
- * 
+ *
  * @namespace Phaser.GameObjects.Components.Flip
  * @since 3.0.0
  */
@@ -23874,11 +23878,11 @@ var Flip = {
 
     /**
      * The horizontally flipped state of the Game Object.
-     * 
+     *
      * A Game Object that is flipped horizontally will render inversed on the horizontal axis.
      * Flipping always takes place from the middle of the texture and does not impact the scale value.
      * If this Game Object has a physics body, it will not change the body. This is a rendering toggle only.
-     * 
+     *
      * @name Phaser.GameObjects.Components.Flip#flipX
      * @type {boolean}
      * @default false
@@ -23888,11 +23892,11 @@ var Flip = {
 
     /**
      * The vertically flipped state of the Game Object.
-     * 
+     *
      * A Game Object that is flipped vertically will render inversed on the vertical axis (i.e. upside down)
      * Flipping always takes place from the middle of the texture and does not impact the scale value.
      * If this Game Object has a physics body, it will not change the body. This is a rendering toggle only.
-     * 
+     *
      * @name Phaser.GameObjects.Components.Flip#flipY
      * @type {boolean}
      * @default false
@@ -23902,14 +23906,14 @@ var Flip = {
 
     /**
      * Toggles the horizontal flipped state of this Game Object.
-     * 
+     *
      * A Game Object that is flipped horizontally will render inversed on the horizontal axis.
      * Flipping always takes place from the middle of the texture and does not impact the scale value.
      * If this Game Object has a physics body, it will not change the body. This is a rendering toggle only.
-     * 
+     *
      * @method Phaser.GameObjects.Components.Flip#toggleFlipX
      * @since 3.0.0
-     * 
+     *
      * @return {this} This Game Object instance.
      */
     toggleFlipX: function ()
@@ -23921,10 +23925,10 @@ var Flip = {
 
     /**
      * Toggles the vertical flipped state of this Game Object.
-     * 
+     *
      * @method Phaser.GameObjects.Components.Flip#toggleFlipY
      * @since 3.0.0
-     * 
+     *
      * @return {this} This Game Object instance.
      */
     toggleFlipY: function ()
@@ -23936,16 +23940,16 @@ var Flip = {
 
     /**
      * Sets the horizontal flipped state of this Game Object.
-     * 
+     *
      * A Game Object that is flipped horizontally will render inversed on the horizontal axis.
      * Flipping always takes place from the middle of the texture and does not impact the scale value.
      * If this Game Object has a physics body, it will not change the body. This is a rendering toggle only.
-     * 
+     *
      * @method Phaser.GameObjects.Components.Flip#setFlipX
      * @since 3.0.0
      *
      * @param {boolean} value - The flipped state. `false` for no flip, or `true` to be flipped.
-     * 
+     *
      * @return {this} This Game Object instance.
      */
     setFlipX: function (value)
@@ -23957,12 +23961,12 @@ var Flip = {
 
     /**
      * Sets the vertical flipped state of this Game Object.
-     * 
+     *
      * @method Phaser.GameObjects.Components.Flip#setFlipY
      * @since 3.0.0
      *
      * @param {boolean} value - The flipped state. `false` for no flip, or `true` to be flipped.
-     * 
+     *
      * @return {this} This Game Object instance.
      */
     setFlipY: function (value)
@@ -23974,17 +23978,17 @@ var Flip = {
 
     /**
      * Sets the horizontal and vertical flipped state of this Game Object.
-     * 
+     *
      * A Game Object that is flipped will render inversed on the flipped axis.
      * Flipping always takes place from the middle of the texture and does not impact the scale value.
      * If this Game Object has a physics body, it will not change the body. This is a rendering toggle only.
-     * 
+     *
      * @method Phaser.GameObjects.Components.Flip#setFlip
      * @since 3.0.0
      *
      * @param {boolean} x - The horizontal flipped state. `false` for no flip, or `true` to be flipped.
      * @param {boolean} y - The horizontal flipped state. `false` for no flip, or `true` to be flipped.
-     * 
+     *
      * @return {this} This Game Object instance.
      */
     setFlip: function (x, y)
@@ -23997,7 +24001,7 @@ var Flip = {
 
     /**
      * Resets the horizontal and vertical flipped state of this Game Object back to their default un-flipped state.
-     * 
+     *
      * @method Phaser.GameObjects.Components.Flip#resetFlip
      * @since 3.0.0
      *
@@ -24309,7 +24313,7 @@ var GetBounds = {
 
         var TLx, TLy, TRx, TRy, BLx, BLy, BRx, BRy;
 
-        // Instead of doing a check if parent container is 
+        // Instead of doing a check if parent container is
         // defined per corner we only do it once.
         if (this.parentContainer)
         {
@@ -24488,9 +24492,9 @@ var Rectangle = new Class({
 
     /**
      * Calculates the coordinates of a point at a certain `position` on the Rectangle's perimeter.
-     * 
+     *
      * The `position` is a fraction between 0 and 1 which defines how far into the perimeter the point is.
-     * 
+     *
      * A value of 0 or 1 returns the point at the top left corner of the rectangle, while a value of 0.5 returns the point at the bottom right corner of the rectangle. Values between 0 and 0.5 are on the top or the right side and values between 0.5 and 1 are on the bottom or the left side.
      *
      * @method Phaser.Geom.Rectangle#getPoint
@@ -26039,7 +26043,7 @@ module.exports = {
 
 /**
  * The Game Blur Event.
- * 
+ *
  * This event is dispatched by the Game Visibility Handler when the window in which the Game instance is embedded
  * enters a blurred state. The blur event is raised when the window loses focus. This can happen if a user swaps
  * tab, or if they simply remove focus from the browser to another app.
@@ -26062,7 +26066,7 @@ module.exports = 'blur';
 
 /**
  * The Game Boot Event.
- * 
+ *
  * This event is dispatched when the Phaser Game instance has finished booting, but before it is ready to start running.
  * The global systems use this event to know when to set themselves up, dispatching their own `ready` events as required.
  *
@@ -26084,9 +26088,9 @@ module.exports = 'boot';
 
 /**
  * The Game Context Lost Event.
- * 
+ *
  * This event is dispatched by the Game if the WebGL Renderer it is using encounters a WebGL Context Lost event from the browser.
- * 
+ *
  * The partner event is `CONTEXT_RESTORED`.
  *
  * @event Phaser.Core.Events#CONTEXT_LOST
@@ -26107,9 +26111,9 @@ module.exports = 'contextlost';
 
 /**
  * The Game Context Restored Event.
- * 
+ *
  * This event is dispatched by the Game if the WebGL Renderer it is using encounters a WebGL Context Restored event from the browser.
- * 
+ *
  * The partner event is `CONTEXT_LOST`.
  *
  * @event Phaser.Core.Events#CONTEXT_RESTORED
@@ -26130,7 +26134,7 @@ module.exports = 'contextrestored';
 
 /**
  * The Game Destroy Event.
- * 
+ *
  * This event is dispatched when the game instance has been told to destroy itself.
  * Lots of internal systems listen to this event in order to clear themselves out.
  * Custom plugins and game code should also do the same.
@@ -26153,7 +26157,7 @@ module.exports = 'destroy';
 
 /**
  * The Game Focus Event.
- * 
+ *
  * This event is dispatched by the Game Visibility Handler when the window in which the Game instance is embedded
  * enters a focused state. The focus event is raised when the window re-gains focus, having previously lost it.
  *
@@ -26175,10 +26179,10 @@ module.exports = 'focus';
 
 /**
  * The Game Hidden Event.
- * 
+ *
  * This event is dispatched by the Game Visibility Handler when the document in which the Game instance is embedded
  * enters a hidden state. Only browsers that support the Visibility API will cause this event to be emitted.
- * 
+ *
  * In most modern browsers, when the document enters a hidden state, the Request Animation Frame and setTimeout, which
  * control the main game loop, will automatically pause. There is no way to stop this from happening. It is something
  * your game should account for in its own code, should the pause be an issue (i.e. for multiplayer games)
@@ -26201,7 +26205,7 @@ module.exports = 'hidden';
 
 /**
  * The Game Pause Event.
- * 
+ *
  * This event is dispatched when the Game loop enters a paused state, usually as a result of the Visibility Handler.
  *
  * @event Phaser.Core.Events#PAUSE
@@ -26222,15 +26226,15 @@ module.exports = 'pause';
 
 /**
  * The Game Post-Render Event.
- * 
+ *
  * This event is dispatched right at the end of the render process.
- * 
+ *
  * Every Scene will have rendered and been drawn to the canvas by the time this event is fired.
  * Use it for any last minute post-processing before the next game step begins.
  *
  * @event Phaser.Core.Events#POST_RENDER
  * @since 3.0.0
- * 
+ *
  * @param {(Phaser.Renderer.Canvas.CanvasRenderer|Phaser.Renderer.WebGL.WebGLRenderer)} renderer - A reference to the current renderer being used by the Game instance.
  */
 module.exports = 'postrender';
@@ -26248,13 +26252,13 @@ module.exports = 'postrender';
 
 /**
  * The Game Post-Step Event.
- * 
+ *
  * This event is dispatched after the Scene Manager has updated.
  * Hook into it from plugins or systems that need to do things before the render starts.
  *
  * @event Phaser.Core.Events#POST_STEP
  * @since 3.0.0
- * 
+ *
  * @param {number} time - The current time. Either a High Resolution Timer value if it comes from Request Animation Frame, or Date.now if using SetTimeout.
  * @param {number} delta - The delta time in ms since the last frame. This is a smoothed and capped value based on the FPS rate.
  */
@@ -26273,14 +26277,14 @@ module.exports = 'poststep';
 
 /**
  * The Game Pre-Render Event.
- * 
+ *
  * This event is dispatched immediately before any of the Scenes have started to render.
- * 
+ *
  * The renderer will already have been initialized this frame, clearing itself and preparing to receive the Scenes for rendering, but it won't have actually drawn anything yet.
  *
  * @event Phaser.Core.Events#PRE_RENDER
  * @since 3.0.0
- * 
+ *
  * @param {(Phaser.Renderer.Canvas.CanvasRenderer|Phaser.Renderer.WebGL.WebGLRenderer)} renderer - A reference to the current renderer being used by the Game instance.
  */
 module.exports = 'prerender';
@@ -26298,13 +26302,13 @@ module.exports = 'prerender';
 
 /**
  * The Game Pre-Step Event.
- * 
+ *
  * This event is dispatched before the main Game Step starts. By this point in the game cycle none of the Scene updates have yet happened.
  * Hook into it from plugins or systems that need to update before the Scene Manager does.
  *
  * @event Phaser.Core.Events#PRE_STEP
  * @since 3.0.0
- * 
+ *
  * @param {number} time - The current time. Either a High Resolution Timer value if it comes from Request Animation Frame, or Date.now if using SetTimeout.
  * @param {number} delta - The delta time in ms since the last frame. This is a smoothed and capped value based on the FPS rate.
  */
@@ -26323,7 +26327,7 @@ module.exports = 'prestep';
 
 /**
  * The Game Ready Event.
- * 
+ *
  * This event is dispatched when the Phaser Game instance has finished booting, the Texture Manager is fully ready,
  * and all local systems are now able to start.
  *
@@ -26345,7 +26349,7 @@ module.exports = 'ready';
 
 /**
  * The Game Resume Event.
- * 
+ *
  * This event is dispatched when the game loop leaves a paused state and resumes running.
  *
  * @event Phaser.Core.Events#RESUME
@@ -26366,13 +26370,13 @@ module.exports = 'resume';
 
 /**
  * The Game Step Event.
- * 
+ *
  * This event is dispatched after the Game Pre-Step and before the Scene Manager steps.
  * Hook into it from plugins or systems that need to update before the Scene Manager does, but after the core Systems have.
  *
  * @event Phaser.Core.Events#STEP
  * @since 3.0.0
- * 
+ *
  * @param {number} time - The current time. Either a High Resolution Timer value if it comes from Request Animation Frame, or Date.now if using SetTimeout.
  * @param {number} delta - The delta time in ms since the last frame. This is a smoothed and capped value based on the FPS rate.
  */
@@ -26391,10 +26395,10 @@ module.exports = 'step';
 
 /**
  * The Game Visible Event.
- * 
+ *
  * This event is dispatched by the Game Visibility Handler when the document in which the Game instance is embedded
  * enters a visible state, previously having been hidden.
- * 
+ *
  * Only browsers that support the Visibility API will cause this event to be emitted.
  *
  * @event Phaser.Core.Events#VISIBLE
@@ -27403,7 +27407,7 @@ var TWEEN_CONST = {
 
     /**
      * TweenData state.
-     * 
+     *
      * @name Phaser.Tweens.CREATED
      * @type {integer}
      * @since 3.0.0
@@ -27412,7 +27416,7 @@ var TWEEN_CONST = {
 
     /**
      * TweenData state.
-     * 
+     *
      * @name Phaser.Tweens.INIT
      * @type {integer}
      * @since 3.0.0
@@ -27421,7 +27425,7 @@ var TWEEN_CONST = {
 
     /**
      * TweenData state.
-     * 
+     *
      * @name Phaser.Tweens.DELAY
      * @type {integer}
      * @since 3.0.0
@@ -27430,7 +27434,7 @@ var TWEEN_CONST = {
 
     /**
      * TweenData state.
-     * 
+     *
      * @name Phaser.Tweens.OFFSET_DELAY
      * @type {integer}
      * @since 3.0.0
@@ -27439,7 +27443,7 @@ var TWEEN_CONST = {
 
     /**
      * TweenData state.
-     * 
+     *
      * @name Phaser.Tweens.PENDING_RENDER
      * @type {integer}
      * @since 3.0.0
@@ -27448,7 +27452,7 @@ var TWEEN_CONST = {
 
     /**
      * TweenData state.
-     * 
+     *
      * @name Phaser.Tweens.PLAYING_FORWARD
      * @type {integer}
      * @since 3.0.0
@@ -27457,7 +27461,7 @@ var TWEEN_CONST = {
 
     /**
      * TweenData state.
-     * 
+     *
      * @name Phaser.Tweens.PLAYING_BACKWARD
      * @type {integer}
      * @since 3.0.0
@@ -27466,7 +27470,7 @@ var TWEEN_CONST = {
 
     /**
      * TweenData state.
-     * 
+     *
      * @name Phaser.Tweens.HOLD_DELAY
      * @type {integer}
      * @since 3.0.0
@@ -27475,7 +27479,7 @@ var TWEEN_CONST = {
 
     /**
      * TweenData state.
-     * 
+     *
      * @name Phaser.Tweens.REPEAT_DELAY
      * @type {integer}
      * @since 3.0.0
@@ -27484,7 +27488,7 @@ var TWEEN_CONST = {
 
     /**
      * TweenData state.
-     * 
+     *
      * @name Phaser.Tweens.COMPLETE
      * @type {integer}
      * @since 3.0.0
@@ -27495,7 +27499,7 @@ var TWEEN_CONST = {
 
     /**
      * Tween state.
-     * 
+     *
      * @name Phaser.Tweens.PENDING_ADD
      * @type {integer}
      * @since 3.0.0
@@ -27504,7 +27508,7 @@ var TWEEN_CONST = {
 
     /**
      * Tween state.
-     * 
+     *
      * @name Phaser.Tweens.PAUSED
      * @type {integer}
      * @since 3.0.0
@@ -27513,7 +27517,7 @@ var TWEEN_CONST = {
 
     /**
      * Tween state.
-     * 
+     *
      * @name Phaser.Tweens.LOOP_DELAY
      * @type {integer}
      * @since 3.0.0
@@ -27522,7 +27526,7 @@ var TWEEN_CONST = {
 
     /**
      * Tween state.
-     * 
+     *
      * @name Phaser.Tweens.ACTIVE
      * @type {integer}
      * @since 3.0.0
@@ -27531,7 +27535,7 @@ var TWEEN_CONST = {
 
     /**
      * Tween state.
-     * 
+     *
      * @name Phaser.Tweens.COMPLETE_DELAY
      * @type {integer}
      * @since 3.0.0
@@ -27540,7 +27544,7 @@ var TWEEN_CONST = {
 
     /**
      * Tween state.
-     * 
+     *
      * @name Phaser.Tweens.PENDING_REMOVE
      * @type {integer}
      * @since 3.0.0
@@ -27549,7 +27553,7 @@ var TWEEN_CONST = {
 
     /**
      * Tween state.
-     * 
+     *
      * @name Phaser.Tweens.REMOVED
      * @type {integer}
      * @since 3.0.0
@@ -27802,7 +27806,7 @@ var ScrollFactor = {
      * A value of 1 means it will move exactly in sync with a camera.
      * A value of 0 means it will not move at all, even if the camera moves.
      * Other values control the degree to which the camera movement is mapped to this Game Object.
-     * 
+     *
      * Please be aware that scroll factor values other than 1 are not taken in to consideration when
      * calculating physics collisions. Bodies always collide based on their world position, but changing
      * the scroll factor is a visual adjustment to where the textures are rendered, which can offset
@@ -27826,7 +27830,7 @@ var ScrollFactor = {
      * A value of 1 means it will move exactly in sync with a camera.
      * A value of 0 means it will not move at all, even if the camera moves.
      * Other values control the degree to which the camera movement is mapped to this Game Object.
-     * 
+     *
      * Please be aware that scroll factor values other than 1 are not taken in to consideration when
      * calculating physics collisions. Bodies always collide based on their world position, but changing
      * the scroll factor is a visual adjustment to where the textures are rendered, which can offset
@@ -27850,7 +27854,7 @@ var ScrollFactor = {
      * A value of 1 means it will move exactly in sync with a camera.
      * A value of 0 means it will not move at all, even if the camera moves.
      * Other values control the degree to which the camera movement is mapped to this Game Object.
-     * 
+     *
      * Please be aware that scroll factor values other than 1 are not taken in to consideration when
      * calculating physics collisions. Bodies always collide based on their world position, but changing
      * the scroll factor is a visual adjustment to where the textures are rendered, which can offset
@@ -27891,7 +27895,7 @@ module.exports = ScrollFactor;
 
 /**
  * Provides methods used for getting and setting the size of a Game Object.
- * 
+ *
  * @namespace Phaser.GameObjects.Components.Size
  * @since 3.0.0
  */
@@ -27900,7 +27904,7 @@ var Size = {
 
     /**
      * A property indicating that a Game Object has this component.
-     * 
+     *
      * @name Phaser.GameObjects.Components.Size#_sizeComponent
      * @type {boolean}
      * @private
@@ -27911,11 +27915,11 @@ var Size = {
 
     /**
      * The native (un-scaled) width of this Game Object.
-     * 
+     *
      * Changing this value will not change the size that the Game Object is rendered in-game.
      * For that you need to either set the scale of the Game Object (`setScale`) or use
      * the `displayWidth` property.
-     * 
+     *
      * @name Phaser.GameObjects.Components.Size#width
      * @type {number}
      * @since 3.0.0
@@ -27924,11 +27928,11 @@ var Size = {
 
     /**
      * The native (un-scaled) height of this Game Object.
-     * 
+     *
      * Changing this value will not change the size that the Game Object is rendered in-game.
      * For that you need to either set the scale of the Game Object (`setScale`) or use
      * the `displayHeight` property.
-     * 
+     *
      * @name Phaser.GameObjects.Components.Size#height
      * @type {number}
      * @since 3.0.0
@@ -27937,11 +27941,11 @@ var Size = {
 
     /**
      * The displayed width of this Game Object.
-     * 
+     *
      * This value takes into account the scale factor.
-     * 
+     *
      * Setting this value will adjust the Game Object's scale property.
-     * 
+     *
      * @name Phaser.GameObjects.Components.Size#displayWidth
      * @type {number}
      * @since 3.0.0
@@ -27962,11 +27966,11 @@ var Size = {
 
     /**
      * The displayed height of this Game Object.
-     * 
+     *
      * This value takes into account the scale factor.
-     * 
+     *
      * Setting this value will adjust the Game Object's scale property.
-     * 
+     *
      * @name Phaser.GameObjects.Components.Size#displayHeight
      * @type {number}
      * @since 3.0.0
@@ -27987,20 +27991,20 @@ var Size = {
 
     /**
      * Sets the size of this Game Object to be that of the given Frame.
-     * 
+     *
      * This will not change the size that the Game Object is rendered in-game.
      * For that you need to either set the scale of the Game Object (`setScale`) or call the
      * `setDisplaySize` method, which is the same thing as changing the scale but allows you
      * to do so by giving pixel values.
-     * 
+     *
      * If you have enabled this Game Object for input, changing the size will _not_ change the
      * size of the hit area. To do this you should adjust the `input.hitArea` object directly.
-     * 
+     *
      * @method Phaser.GameObjects.Components.Size#setSizeToFrame
      * @since 3.0.0
      *
      * @param {Phaser.Textures.Frame} frame - The frame to base the size of this Game Object on.
-     * 
+     *
      * @return {this} This Game Object instance.
      */
     setSizeToFrame: function (frame)
@@ -28015,21 +28019,21 @@ var Size = {
 
     /**
      * Sets the internal size of this Game Object, as used for frame or physics body creation.
-     * 
+     *
      * This will not change the size that the Game Object is rendered in-game.
      * For that you need to either set the scale of the Game Object (`setScale`) or call the
      * `setDisplaySize` method, which is the same thing as changing the scale but allows you
      * to do so by giving pixel values.
-     * 
+     *
      * If you have enabled this Game Object for input, changing the size will _not_ change the
      * size of the hit area. To do this you should adjust the `input.hitArea` object directly.
-     * 
+     *
      * @method Phaser.GameObjects.Components.Size#setSize
      * @since 3.0.0
      *
      * @param {number} width - The width of this Game Object.
      * @param {number} height - The height of this Game Object.
-     * 
+     *
      * @return {this} This Game Object instance.
      */
     setSize: function (width, height)
@@ -28042,15 +28046,15 @@ var Size = {
 
     /**
      * Sets the display size of this Game Object.
-     * 
+     *
      * Calling this will adjust the scale.
-     * 
+     *
      * @method Phaser.GameObjects.Components.Size#setDisplaySize
      * @since 3.0.0
      *
      * @param {number} width - The width of this Game Object.
      * @param {number} height - The height of this Game Object.
-     * 
+     *
      * @return {this} This Game Object instance.
      */
     setDisplaySize: function (width, height)
@@ -28249,24 +28253,24 @@ var TextureCrop = {
 
     /**
      * Applies a crop to a texture based Game Object, such as a Sprite or Image.
-     * 
+     *
      * The crop is a rectangle that limits the area of the texture frame that is visible during rendering.
-     * 
+     *
      * Cropping a Game Object does not change its size, dimensions, physics body or hit area, it just
      * changes what is shown when rendered.
-     * 
+     *
      * The crop coordinates are relative to the texture frame, not the Game Object, meaning 0 x 0 is the top-left.
-     * 
+     *
      * Therefore, if you had a Game Object that had an 800x600 sized texture, and you wanted to show only the left
      * half of it, you could call `setCrop(0, 0, 400, 600)`.
-     * 
+     *
      * It is also scaled to match the Game Object scale automatically. Therefore a crop rect of 100x50 would crop
      * an area of 200x100 when applied to a Game Object that had a scale factor of 2.
-     * 
+     *
      * You can either pass in numeric values directly, or you can provide a single Rectangle object as the first argument.
-     * 
+     *
      * Call this method with no arguments at all to reset the crop, or toggle the property `isCropped` to `false`.
-     * 
+     *
      * You should do this if the crop rectangle becomes the same size as the frame itself, as it will allow
      * the renderer to skip several internal calculations.
      *
@@ -28391,7 +28395,7 @@ var TextureCrop = {
      * @method Phaser.GameObjects.Components.TextureCrop#resetCropObject
      * @private
      * @since 3.12.0
-     * 
+     *
      * @return {object} The crop object.
      */
     resetCropObject: function ()
@@ -29268,7 +29272,7 @@ var _FLAG = 1; // 0001
 /**
  * Provides methods used for setting the visibility of a Game Object.
  * Should be applied as a mixin and not used directly.
- * 
+ *
  * @namespace Phaser.GameObjects.Components.Visible
  * @since 3.0.0
  */
@@ -29277,7 +29281,7 @@ var Visible = {
 
     /**
      * Private internal value. Holds the visible value.
-     * 
+     *
      * @name Phaser.GameObjects.Components.Visible#_visible
      * @type {boolean}
      * @private
@@ -29288,9 +29292,9 @@ var Visible = {
 
     /**
      * The visible state of the Game Object.
-     * 
+     *
      * An invisible Game Object will skip rendering, but will still process update logic.
-     * 
+     *
      * @name Phaser.GameObjects.Components.Visible#visible
      * @type {boolean}
      * @since 3.0.0
@@ -29320,14 +29324,14 @@ var Visible = {
 
     /**
      * Sets the visibility of this Game Object.
-     * 
+     *
      * An invisible Game Object will skip rendering, but will still process update logic.
      *
      * @method Phaser.GameObjects.Components.Visible#setVisible
      * @since 3.0.0
      *
      * @param {boolean} value - The visible state of the Game Object.
-     * 
+     *
      * @return {this} This Game Object instance.
      */
     setVisible: function (value)
@@ -29685,7 +29689,7 @@ var ScenePlugin = new Class({
 
     /**
      * Game instance has been destroyed.
-     * 
+     *
      * You must release everything in here, all references, all objects, free it all up.
      *
      * @method Phaser.Plugins.ScenePlugin#destroy
@@ -29913,14 +29917,14 @@ module.exports = 'addedtoscene';
 
 /**
  * The Scene Systems Boot Event.
- * 
+ *
  * This event is dispatched by a Scene during the Scene Systems boot process. Primarily used by Scene Plugins.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('boot', listener)`.
- * 
+ *
  * @event Phaser.Scenes.Events#BOOT
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.Scenes.Systems} sys - A reference to the Scene Systems class of the Scene that emitted this event.
  */
 module.exports = 'boot';
@@ -29938,18 +29942,18 @@ module.exports = 'boot';
 
 /**
  * The Scene Create Event.
- * 
+ *
  * This event is dispatched by a Scene after it has been created by the Scene Manager.
- * 
+ *
  * If a Scene has a `create` method then this event is emitted _after_ that has run.
- * 
+ *
  * If there is a transition, this event will be fired after the `TRANSITION_START` event.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('create', listener)`.
- * 
+ *
  * @event Phaser.Scenes.Events#CREATE
  * @since 3.17.0
- * 
+ *
  * @param {Phaser.Scene} scene - A reference to the Scene that emitted this event.
  */
 module.exports = 'create';
@@ -29967,16 +29971,16 @@ module.exports = 'create';
 
 /**
  * The Scene Systems Destroy Event.
- * 
+ *
  * This event is dispatched by a Scene during the Scene Systems destroy process.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('destroy', listener)`.
- * 
+ *
  * You should destroy any resources that may be in use by your Scene in this event handler.
- * 
+ *
  * @event Phaser.Scenes.Events#DESTROY
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.Scenes.Systems} sys - A reference to the Scene Systems class of the Scene that emitted this event.
  */
 module.exports = 'destroy';
@@ -29994,15 +29998,15 @@ module.exports = 'destroy';
 
 /**
  * The Scene Systems Pause Event.
- * 
+ *
  * This event is dispatched by a Scene when it is paused, either directly via the `pause` method, or as an
  * action from another Scene.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('pause', listener)`.
- * 
+ *
  * @event Phaser.Scenes.Events#PAUSE
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.Scenes.Systems} sys - A reference to the Scene Systems class of the Scene that emitted this event.
  * @param {any} [data] - An optional data object that was passed to this Scene when it was paused.
  */
@@ -30021,24 +30025,24 @@ module.exports = 'pause';
 
 /**
  * The Scene Systems Post Update Event.
- * 
+ *
  * This event is dispatched by a Scene during the main game loop step.
- * 
+ *
  * The event flow for a single step of a Scene is as follows:
- * 
+ *
  * 1. [PRE_UPDATE]{@linkcode Phaser.Scenes.Events#event:PRE_UPDATE}
  * 2. [UPDATE]{@linkcode Phaser.Scenes.Events#event:UPDATE}
  * 3. The `Scene.update` method is called, if it exists
  * 4. [POST_UPDATE]{@linkcode Phaser.Scenes.Events#event:POST_UPDATE}
  * 5. [RENDER]{@linkcode Phaser.Scenes.Events#event:RENDER}
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('postupdate', listener)`.
- * 
+ *
  * A Scene will only run its step if it is active.
- * 
+ *
  * @event Phaser.Scenes.Events#POST_UPDATE
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.Scenes.Systems} sys - A reference to the Scene Systems class of the Scene that emitted this event.
  * @param {number} time - The current time. Either a High Resolution Timer value if it comes from Request Animation Frame, or Date.now if using SetTimeout.
  * @param {number} delta - The delta time in ms since the last frame. This is a smoothed and capped value based on the FPS rate.
@@ -30058,24 +30062,24 @@ module.exports = 'postupdate';
 
 /**
  * The Scene Systems Pre Update Event.
- * 
+ *
  * This event is dispatched by a Scene during the main game loop step.
- * 
+ *
  * The event flow for a single step of a Scene is as follows:
- * 
+ *
  * 1. [PRE_UPDATE]{@linkcode Phaser.Scenes.Events#event:PRE_UPDATE}
  * 2. [UPDATE]{@linkcode Phaser.Scenes.Events#event:UPDATE}
  * 3. The `Scene.update` method is called, if it exists
  * 4. [POST_UPDATE]{@linkcode Phaser.Scenes.Events#event:POST_UPDATE}
  * 5. [RENDER]{@linkcode Phaser.Scenes.Events#event:RENDER}
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('preupdate', listener)`.
- * 
+ *
  * A Scene will only run its step if it is active.
- * 
+ *
  * @event Phaser.Scenes.Events#PRE_UPDATE
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.Scenes.Systems} sys - A reference to the Scene Systems class of the Scene that emitted this event.
  * @param {number} time - The current time. Either a High Resolution Timer value if it comes from Request Animation Frame, or Date.now if using SetTimeout.
  * @param {number} delta - The delta time in ms since the last frame. This is a smoothed and capped value based on the FPS rate.
@@ -30095,16 +30099,16 @@ module.exports = 'preupdate';
 
 /**
  * The Scene Systems Ready Event.
- * 
+ *
  * This event is dispatched by a Scene during the Scene Systems start process.
  * By this point in the process the Scene is now fully active and rendering.
  * This event is meant for your game code to use, as all plugins have responded to the earlier 'start' event.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('ready', listener)`.
- * 
+ *
  * @event Phaser.Scenes.Events#READY
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.Scenes.Systems} sys - A reference to the Scene Systems class of the Scene that emitted this event.
  * @param {any} [data] - An optional data object that was passed to this Scene when it was started.
  */
@@ -30149,25 +30153,25 @@ module.exports = 'removedfromscene';
 
 /**
  * The Scene Systems Render Event.
- * 
+ *
  * This event is dispatched by a Scene during the main game loop step.
- * 
+ *
  * The event flow for a single step of a Scene is as follows:
- * 
+ *
  * 1. [PRE_UPDATE]{@linkcode Phaser.Scenes.Events#event:PRE_UPDATE}
  * 2. [UPDATE]{@linkcode Phaser.Scenes.Events#event:UPDATE}
  * 3. The `Scene.update` method is called, if it exists
  * 4. [POST_UPDATE]{@linkcode Phaser.Scenes.Events#event:POST_UPDATE}
  * 5. [RENDER]{@linkcode Phaser.Scenes.Events#event:RENDER}
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('render', listener)`.
- * 
+ *
  * A Scene will only render if it is visible and active.
  * By the time this event is dispatched, the Scene will have already been rendered.
- * 
+ *
  * @event Phaser.Scenes.Events#RENDER
  * @since 3.0.0
- * 
+ *
  * @param {(Phaser.Renderer.Canvas.CanvasRenderer|Phaser.Renderer.WebGL.WebGLRenderer)} renderer - The renderer that rendered the Scene.
  */
 module.exports = 'render';
@@ -30185,15 +30189,15 @@ module.exports = 'render';
 
 /**
  * The Scene Systems Resume Event.
- * 
+ *
  * This event is dispatched by a Scene when it is resumed from a paused state, either directly via the `resume` method,
  * or as an action from another Scene.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('resume', listener)`.
- * 
+ *
  * @event Phaser.Scenes.Events#RESUME
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.Scenes.Systems} sys - A reference to the Scene Systems class of the Scene that emitted this event.
  * @param {any} [data] - An optional data object that was passed to this Scene when it was resumed.
  */
@@ -30212,18 +30216,18 @@ module.exports = 'resume';
 
 /**
  * The Scene Systems Shutdown Event.
- * 
+ *
  * This event is dispatched by a Scene during the Scene Systems shutdown process.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('shutdown', listener)`.
- * 
+ *
  * You should free-up any resources that may be in use by your Scene in this event handler, on the understanding
  * that the Scene may, at any time, become active again. A shutdown Scene is not 'destroyed', it's simply not
  * currently active. Use the [DESTROY]{@linkcode Phaser.Scenes.Events#event:DESTROY} event to completely clear resources.
- * 
+ *
  * @event Phaser.Scenes.Events#SHUTDOWN
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.Scenes.Systems} sys - A reference to the Scene Systems class of the Scene that emitted this event.
  * @param {any} [data] - An optional data object that was passed to this Scene when it was shutdown.
  */
@@ -30242,15 +30246,15 @@ module.exports = 'shutdown';
 
 /**
  * The Scene Systems Sleep Event.
- * 
+ *
  * This event is dispatched by a Scene when it is sent to sleep, either directly via the `sleep` method,
  * or as an action from another Scene.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('sleep', listener)`.
- * 
+ *
  * @event Phaser.Scenes.Events#SLEEP
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.Scenes.Systems} sys - A reference to the Scene Systems class of the Scene that emitted this event.
  * @param {any} [data] - An optional data object that was passed to this Scene when it was sent to sleep.
  */
@@ -30269,14 +30273,14 @@ module.exports = 'sleep';
 
 /**
  * The Scene Systems Start Event.
- * 
+ *
  * This event is dispatched by a Scene during the Scene Systems start process. Primarily used by Scene Plugins.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('start', listener)`.
- * 
+ *
  * @event Phaser.Scenes.Events#START
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.Scenes.Systems} sys - A reference to the Scene Systems class of the Scene that emitted this event.
  */
 module.exports = 'start';
@@ -30294,25 +30298,25 @@ module.exports = 'start';
 
 /**
  * The Scene Transition Complete Event.
- * 
+ *
  * This event is dispatched by the Target Scene of a transition.
- * 
+ *
  * It happens when the transition process has completed. This occurs when the duration timer equals or exceeds the duration
  * of the transition.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('transitioncomplete', listener)`.
- * 
+ *
  * The Scene Transition event flow is as follows:
- * 
+ *
  * 1. [TRANSITION_OUT]{@linkcode Phaser.Scenes.Events#event:TRANSITION_OUT} - the Scene that started the transition will emit this event.
  * 2. [TRANSITION_INIT]{@linkcode Phaser.Scenes.Events#event:TRANSITION_INIT} - the Target Scene will emit this event if it has an `init` method.
  * 3. [TRANSITION_START]{@linkcode Phaser.Scenes.Events#event:TRANSITION_START} - the Target Scene will emit this event after its `create` method is called, OR ...
  * 4. [TRANSITION_WAKE]{@linkcode Phaser.Scenes.Events#event:TRANSITION_WAKE} - the Target Scene will emit this event if it was asleep and has been woken-up to be transitioned to.
  * 5. [TRANSITION_COMPLETE]{@linkcode Phaser.Scenes.Events#event:TRANSITION_COMPLETE} - the Target Scene will emit this event when the transition finishes.
- * 
+ *
  * @event Phaser.Scenes.Events#TRANSITION_COMPLETE
  * @since 3.5.0
- * 
+ *
  * @param {Phaser.Scene} scene -The Scene on which the transitioned completed.
  */
 module.exports = 'transitioncomplete';
@@ -30330,25 +30334,25 @@ module.exports = 'transitioncomplete';
 
 /**
  * The Scene Transition Init Event.
- * 
+ *
  * This event is dispatched by the Target Scene of a transition.
- * 
+ *
  * It happens immediately after the `Scene.init` method is called. If the Scene does not have an `init` method,
  * this event is not dispatched.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('transitioninit', listener)`.
- * 
+ *
  * The Scene Transition event flow is as follows:
- * 
+ *
  * 1. [TRANSITION_OUT]{@linkcode Phaser.Scenes.Events#event:TRANSITION_OUT} - the Scene that started the transition will emit this event.
  * 2. [TRANSITION_INIT]{@linkcode Phaser.Scenes.Events#event:TRANSITION_INIT} - the Target Scene will emit this event if it has an `init` method.
  * 3. [TRANSITION_START]{@linkcode Phaser.Scenes.Events#event:TRANSITION_START} - the Target Scene will emit this event after its `create` method is called, OR ...
  * 4. [TRANSITION_WAKE]{@linkcode Phaser.Scenes.Events#event:TRANSITION_WAKE} - the Target Scene will emit this event if it was asleep and has been woken-up to be transitioned to.
  * 5. [TRANSITION_COMPLETE]{@linkcode Phaser.Scenes.Events#event:TRANSITION_COMPLETE} - the Target Scene will emit this event when the transition finishes.
- * 
+ *
  * @event Phaser.Scenes.Events#TRANSITION_INIT
  * @since 3.5.0
- * 
+ *
  * @param {Phaser.Scene} from - A reference to the Scene that is being transitioned from.
  * @param {number} duration - The duration of the transition in ms.
  */
@@ -30367,22 +30371,22 @@ module.exports = 'transitioninit';
 
 /**
  * The Scene Transition Out Event.
- * 
+ *
  * This event is dispatched by a Scene when it initiates a transition to another Scene.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('transitionout', listener)`.
- * 
+ *
  * The Scene Transition event flow is as follows:
- * 
+ *
  * 1. [TRANSITION_OUT]{@linkcode Phaser.Scenes.Events#event:TRANSITION_OUT} - the Scene that started the transition will emit this event.
  * 2. [TRANSITION_INIT]{@linkcode Phaser.Scenes.Events#event:TRANSITION_INIT} - the Target Scene will emit this event if it has an `init` method.
  * 3. [TRANSITION_START]{@linkcode Phaser.Scenes.Events#event:TRANSITION_START} - the Target Scene will emit this event after its `create` method is called, OR ...
  * 4. [TRANSITION_WAKE]{@linkcode Phaser.Scenes.Events#event:TRANSITION_WAKE} - the Target Scene will emit this event if it was asleep and has been woken-up to be transitioned to.
  * 5. [TRANSITION_COMPLETE]{@linkcode Phaser.Scenes.Events#event:TRANSITION_COMPLETE} - the Target Scene will emit this event when the transition finishes.
- * 
+ *
  * @event Phaser.Scenes.Events#TRANSITION_OUT
  * @since 3.5.0
- * 
+ *
  * @param {Phaser.Scene} target - A reference to the Scene that is being transitioned to.
  * @param {number} duration - The duration of the transition in ms.
  */
@@ -30401,28 +30405,28 @@ module.exports = 'transitionout';
 
 /**
  * The Scene Transition Start Event.
- * 
+ *
  * This event is dispatched by the Target Scene of a transition, only if that Scene was not asleep.
- * 
+ *
  * It happens immediately after the `Scene.create` method is called. If the Scene does not have a `create` method,
  * this event is dispatched anyway.
- * 
+ *
  * If the Target Scene was sleeping then the [TRANSITION_WAKE]{@linkcode Phaser.Scenes.Events#event:TRANSITION_WAKE} event is
  * dispatched instead of this event.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('transitionstart', listener)`.
- * 
+ *
  * The Scene Transition event flow is as follows:
- * 
+ *
  * 1. [TRANSITION_OUT]{@linkcode Phaser.Scenes.Events#event:TRANSITION_OUT} - the Scene that started the transition will emit this event.
  * 2. [TRANSITION_INIT]{@linkcode Phaser.Scenes.Events#event:TRANSITION_INIT} - the Target Scene will emit this event if it has an `init` method.
  * 3. [TRANSITION_START]{@linkcode Phaser.Scenes.Events#event:TRANSITION_START} - the Target Scene will emit this event after its `create` method is called, OR ...
  * 4. [TRANSITION_WAKE]{@linkcode Phaser.Scenes.Events#event:TRANSITION_WAKE} - the Target Scene will emit this event if it was asleep and has been woken-up to be transitioned to.
  * 5. [TRANSITION_COMPLETE]{@linkcode Phaser.Scenes.Events#event:TRANSITION_COMPLETE} - the Target Scene will emit this event when the transition finishes.
- * 
+ *
  * @event Phaser.Scenes.Events#TRANSITION_START
  * @since 3.5.0
- * 
+ *
  * @param {Phaser.Scene} from - A reference to the Scene that is being transitioned from.
  * @param {number} duration - The duration of the transition in ms.
  */
@@ -30441,23 +30445,23 @@ module.exports = 'transitionstart';
 
 /**
  * The Scene Transition Wake Event.
- * 
+ *
  * This event is dispatched by the Target Scene of a transition, only if that Scene was asleep before
  * the transition began. If the Scene was not asleep the [TRANSITION_START]{@linkcode Phaser.Scenes.Events#event:TRANSITION_START} event is dispatched instead.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('transitionwake', listener)`.
- * 
+ *
  * The Scene Transition event flow is as follows:
- * 
+ *
  * 1. [TRANSITION_OUT]{@linkcode Phaser.Scenes.Events#event:TRANSITION_OUT} - the Scene that started the transition will emit this event.
  * 2. [TRANSITION_INIT]{@linkcode Phaser.Scenes.Events#event:TRANSITION_INIT} - the Target Scene will emit this event if it has an `init` method.
  * 3. [TRANSITION_START]{@linkcode Phaser.Scenes.Events#event:TRANSITION_START} - the Target Scene will emit this event after its `create` method is called, OR ...
  * 4. [TRANSITION_WAKE]{@linkcode Phaser.Scenes.Events#event:TRANSITION_WAKE} - the Target Scene will emit this event if it was asleep and has been woken-up to be transitioned to.
  * 5. [TRANSITION_COMPLETE]{@linkcode Phaser.Scenes.Events#event:TRANSITION_COMPLETE} - the Target Scene will emit this event when the transition finishes.
- * 
+ *
  * @event Phaser.Scenes.Events#TRANSITION_WAKE
  * @since 3.5.0
- * 
+ *
  * @param {Phaser.Scene} from - A reference to the Scene that is being transitioned from.
  * @param {number} duration - The duration of the transition in ms.
  */
@@ -30476,24 +30480,24 @@ module.exports = 'transitionwake';
 
 /**
  * The Scene Systems Update Event.
- * 
+ *
  * This event is dispatched by a Scene during the main game loop step.
- * 
+ *
  * The event flow for a single step of a Scene is as follows:
- * 
+ *
  * 1. [PRE_UPDATE]{@linkcode Phaser.Scenes.Events#event:PRE_UPDATE}
  * 2. [UPDATE]{@linkcode Phaser.Scenes.Events#event:UPDATE}
  * 3. The `Scene.update` method is called, if it exists
  * 4. [POST_UPDATE]{@linkcode Phaser.Scenes.Events#event:POST_UPDATE}
  * 5. [RENDER]{@linkcode Phaser.Scenes.Events#event:RENDER}
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('update', listener)`.
- * 
+ *
  * A Scene will only run its step if it is active.
- * 
+ *
  * @event Phaser.Scenes.Events#UPDATE
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.Scenes.Systems} sys - A reference to the Scene Systems class of the Scene that emitted this event.
  * @param {number} time - The current time. Either a High Resolution Timer value if it comes from Request Animation Frame, or Date.now if using SetTimeout.
  * @param {number} delta - The delta time in ms since the last frame. This is a smoothed and capped value based on the FPS rate.
@@ -30513,15 +30517,15 @@ module.exports = 'update';
 
 /**
  * The Scene Systems Wake Event.
- * 
+ *
  * This event is dispatched by a Scene when it is woken from sleep, either directly via the `wake` method,
  * or as an action from another Scene.
- * 
+ *
  * Listen to it from a Scene using `this.scene.events.on('wake', listener)`.
- * 
+ *
  * @event Phaser.Scenes.Events#WAKE
  * @since 3.0.0
- * 
+ *
  * @param {Phaser.Scenes.Systems} sys - A reference to the Scene Systems class of the Scene that emitted this event.
  * @param {any} [data] - An optional data object that was passed to this Scene when it was woken up.
  */

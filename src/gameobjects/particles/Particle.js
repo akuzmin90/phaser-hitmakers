@@ -780,7 +780,11 @@ var Particle = new Class({
      */
     destroy: function ()
     {
-        this.anims.destroy();
+        if (this.anims) {
+            this.anims.destroy();
+        } else {
+            console.log('got ya!! 55!');
+        }
 
         this.anims = null;
         this.emitter = null;

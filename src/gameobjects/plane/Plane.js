@@ -730,7 +730,11 @@ var Plane = new Class({
         this.clear();
         this.removeCheckerboard();
 
-        this.anims.destroy();
+        if (this.anims) {
+            this.anims.destroy();
+        } else {
+            console.log('got ya!! 55!');
+        }
 
         this.anims = undefined;
 
