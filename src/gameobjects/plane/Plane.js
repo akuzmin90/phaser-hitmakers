@@ -732,8 +732,6 @@ var Plane = new Class({
 
         if (this.anims) {
             this.anims.destroy();
-        } else {
-            console.log('got ya!! 55!');
         }
 
         this.anims = undefined;

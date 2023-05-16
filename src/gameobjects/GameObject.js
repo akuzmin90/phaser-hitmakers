@@ -770,7 +770,11 @@ var GameObject = new Class({
      */
     removeFromDisplayList: function ()
     {
-        var displayList = this.displayList || this.scene.sys.displayList;
+        var displayList = this.displayList;
+
+        if (!displayList && this.scene && this.scene.sys) {
+            displayList = this.scene.sys.displayList;
+        }
 
         if (displayList && displayList.exists(this))
         {
@@ -805,7 +809,7 @@ var GameObject = new Class({
      */
     removeFromUpdateList: function ()
     {
-        if (this.scene && this.preUpdate)
+        if (this.scene && this.scene.sys && this.scene.sys.updateList && this.preUpdate)
         {
             this.scene.sys.updateList.remove(this);
         }
@@ -856,6 +860,13 @@ var GameObject = new Class({
             this.resetPostPipeline(true);
         }
 
+        if (!this.scene)
+        {
+            console.log('WTF?????');
+            console.log(this.texture);
+            console.log(this.frame);
+            return;
+        }
         this.removeFromDisplayList();
         this.removeFromUpdateList();
 
